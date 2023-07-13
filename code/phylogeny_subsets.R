@@ -39,7 +39,7 @@ ggplot(fullphylogeny, aes(x, y)) + geom_tree() + theme_tree()+ geom_tiplab(size=
 ##make a singles tree that looks good
 ##read in excel file with infromation about tips to exclude
 tip_data_singles <- read.csv(file = "data/singles.csv")
-tips_singles = c(tip_data_singles$TOREMOVEFROMPHYLOGENY.)
+tips_singles = c(tip_data_singles$Toremove.)
 singles_tree <- drop.tip(tree,tip = tips_singles)
 write.tree(singles_tree, file = "output/Marina_singles.tree")
 ggplot(singles_tree, aes(x, y)) + geom_tree() + theme_tree() + geom_tiplab(size=3)

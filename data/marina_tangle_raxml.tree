@@ -1,0 +1,271 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=169;
+	taxlabels
+	Amorpha_californica_napensis_81
+	Dalea_albiflora_228
+	Dalea_albiflora_84
+	Dalea_brandegeii_14
+	Dalea_candida_95
+	Dalea_filicifmormis_NL_224
+	Dalea_filiciformis_31
+	Dalea_filiciformis_Puebla_173
+	Dalea_filiciformis_sanLuisPotosi_176
+	Dalea_filiformis_208
+	Dalea_leporina_227
+	Dalea_mollis_16
+	Dalea_pogonanthera_226
+	Dalea_polygonoides_225
+	Dalea_pulchra_134
+	Dalea_purpurea_94
+	Dalea_versicolor_96
+	Marina_aff_Capensis_50
+	Marina_aff_capensis_LaPaz_144
+	Marina_aff_divaricata_CaboPulmo_161
+	Marina_aff_divaricata_SierradeLaLaguna_101
+	Marina_aff_interstes_48
+	Marina_aff_maritima_SierralasCacachilas_57
+	Marina_alamosana_32
+	Marina_brevis_33
+	Marina_calycosa_29
+	Marina_calycosa_PatagoniaMtns_98
+	Marina_calycosa_Sonora_201
+	Marina_calycosa_newMexico_200
+	Marina_capensis_SEW_10
+	Marina_capensis_SanPedrito_51
+	Marina_capensis_SierralaLaguna_146
+	Marina_catalinae_34
+	Marina_chrysorrhiza_CaboPulmo_155
+	Marina_chrysorrhiza_Migrino_193
+	Marina_chrysorrhiza_SierradelNovillo_156
+	Marina_crenulata_132
+	Marina_crenulata_Sinaloa_210
+	Marina_crenulata_durango_219
+	Marina_crenulata_durango_220
+	Marina_crenulata_oaxaca_211
+	Marina_crenulata_oaxaca_218
+	Marina_crenulata_stipulacea_Oaxaca_190
+	Marina_diffusa_Yecora_187
+	Marina_diffusa_diffusa_174
+	Marina_diffusa_diffusa_Colima_177
+	Marina_diffusa_diffusa_PatagoniaMtns_27
+	Marina_diffusa_diffusa_SonoraMontezcuma_133
+	Marina_diffusa_radiolata_Nayarit_169
+	Marina_dispansa_142
+	Marina_divaricata_CapeMtns_182
+	Marina_divaricata_MagIsland_152
+	Marina_divaricata_SierraLaLaguna_36
+	Marina_divaricata_SierradelNovillo_86
+	Marina_divaricata_anthonyi_154
+	Marina_divaricata_cabo_151
+	Marina_divaricata_elConejo_147
+	Marina_divaricata_sanBartolo_192
+	Marina_divaricata_typelocality_162
+	Marina_evanescens_BahiadeLosAngeles_38
+	Marina_evanescens_Guaymas_157
+	Marina_evanescens_LaPaz_185
+	Marina_evanescens_MagBay_180
+	Marina_evanescens_SanBarteo_188
+	Marina_evanescens_SierradeLaGiganta47
+	Marina_ghiesbreghtii_109
+	Marina_ghiesbreghtii_216
+	Marina_goldmanii_28
+	Marina_goldmanii_chihuahua_205
+	Marina_gracilis_108
+	Marina_gracillima_GDL_175
+	Marina_gracillima_nayarit_222
+	Marina_gracillima_nayarit_234
+	Marina_grammadenia_112
+	Marina_grammadenia_Michoacan_215
+	Marina_grammadenia_talpadeallende_221
+	Marina_greenmaniana_141
+	Marina_greenmaniana_oaxaca_230
+	Marina_holwayi_Guerrero_Lavin_214
+	Marina_holwayi_Guerrero_Ripley_164
+	Marina_holwayi_Oaxaca_178
+	Marina_holwayi_Puebla_198
+	Marina_interstes_39
+	Marina_interstes_LosCabos_184
+	Marina_maritima_9palms_13
+	Marina_maritima_Cerritos_17
+	Marina_maritima_LasCuevas_159
+	Marina_maritima_SanPedrito_59
+	Marina_maritima_Santiago_160
+	Marina_maritima_SierraCacachila_58
+	Marina_melilotina_217
+	Marina_minutiflora_Morelos_119
+	Marina_minutiflora_Oaxaca_115
+	Marina_minutiflora_Texcoco_143
+	Marina_neglecta_Colima_118
+	Marina_neglecta_Puebla_117
+	Marina_neglecta_SLPotosi_167
+	Marina_neglecta_aguascalientes_223
+	Marina_neglecta_elongata_Guerrero_209
+	Marina_neglecta_elongata_Puebla_168
+	Marina_neglecta_neglecta_Oaxaca_202
+	Marina_neglecta_neglecta_Zacatecas_203
+	Marina_neglecta_neglecta_guanajuanto_207
+	Marina_nutans_131
+	Marina_nutans_Durango_196
+	Marina_nutans_Guatemala_179
+	Marina_nutans_Oaxaca_165
+	Marina_nutans_Oaxaca_197
+	Marina_nutans_mexicostate_199
+	Marina_nutans_michoacan_204
+	Marina_oculata_40
+	Marina_orcutti_CerroMatomi_70
+	Marina_orcutti_campanea_SierraLaLibertad_41
+	Marina_orcutti_orcutti_SanPedroMartir_42
+	Marina_orcuttii_campanea_SierraSanFrancisco_138
+	Marina_orcuttii_campanea_SierralaLibertad_158
+	Marina_orcuttii_campanea_sierraGuadalupe_149
+	Marina_orcuttii_campanea_sierraSanFran_148
+	Marina_orcuttii_orcuttii_ElCastillo_181
+	Marina_palmeri_25
+	Marina_palmeri_sonora_183
+	Marina_parryi_ChocolateMtns_139
+	Marina_parryi_Constitucion_53
+	Marina_parryi_IslaCarmen_55
+	Marina_parryi_IslaSanJose_54
+	Marina_parryi_SierradeLaLibertad_88
+	Marina_parryi_SierradeSanBorja_89
+	Marina_parryi_TucsonMtns_97
+	Marina_parryi_lakemojave_229
+	Marina_parryi_makings_30
+	Marina_peninsularis_BahiaMagdalena_43
+	Marina_peninsularis_GuerreroNegro_67
+	Marina_peninsularis_LaPaz_87
+	Marina_peninsularis_SLaGiganta_186
+	Marina_peninsularis_Sonora_206
+	Marina_peninsularis_Vizcaino_189
+	Marina_procumbens_Aguascalientes_116
+	Marina_procumbens_Oaxaca_120
+	Marina_procumbens_chiapas_233
+	Marina_pueblensis_Guerrero_122
+	Marina_pueblensis_Puebla_121
+	Marina_sarodes_232
+	Marina_scopa_26
+	Marina_scopa_Alamos_191
+	Marina_scopa_Oaxaca_195
+	Marina_scopa_chiapas_163
+	Marina_sp_Michoacan_23
+	Marina_sp_Oaxaca_24
+	Marina_sp_SanJuanico_72
+	Marina_sp_ser_unifoliolata_Oaxaca_140
+	Marina_spiciformis_chiapas_231
+	Marina_stilligera_Michoacan_213
+	Marina_stillingera_124
+	Marina_stillingera_136
+	Marina_unifolioata_Guerrero_172
+	Marina_unifolioata_Michoacan_145
+	Marina_unifoliolata_MexicoState_171
+	Marina_unifoliolata_Nayarit_212
+	Marina_vetula_AguaVerde_15
+	Marina_vetula_CerroMechudo_153
+	Marina_vetula_IslaTiburon_64
+	Marina_vetula_Sierra_de_La_Libertad_65
+	Marina_vetula_SierradeLaLibertad_90
+	Marina_vetula_guaymas_194
+	Marina_vetula_guaymas_235
+	Marina_victoriae_SierraElTaste_56
+	Marina_victoriae_SierradeLaVictoria_74
+	Psorothamnus_arborescens_minutifolius_2
+	Psorothamnus_polydenius_3
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((Psorothamnus_polydenius_3:0.031148,((Dalea_brandegeii_14:0.036638,(Dalea_pogonanthera_226:0.038295,((Dalea_purpurea_94:0.006138,Dalea_candida_95:0.008263)[&label=100]:0.03057,(((Dalea_filiformis_208:0.016256,Dalea_polygonoides_225:0.012465)[&label=100]:0.004666,Dalea_leporina_227:0.016162)[&label=100]:0.013423,(((Marina_minutiflora_Texcoco_143:0.006607,Dalea_mollis_16:0.007136)[&label=100]:0.001499,(Dalea_pulchra_134:0.004715,Dalea_versicolor_96:0.009233)[&label=100]:0.003366)[&label=100]:0.001502,(Dalea_albiflora_84:0.003392,Dalea_albiflora_228:0.003627)[&label=100]:0.007479)[&label=100]:0.016264)[&label=100]:0.004705)[&label=100]:0.002857)[&label=100]:0.006938)[&label=100]:0.00757,((Dalea_filiciformis_Puebla_173:0.005011,(Dalea_filiciformis_31:0.001357,(Dalea_filiciformis_sanLuisPotosi_176:0.00101,Dalea_filicifmormis_NL_224:7.96E-4)[&label=75]:2.73E-4)[&label=100]:0.00396)[&label=100]:0.021204,((((((Marina_neglecta_SLPotosi_167:0.020508,Marina_neglecta_neglecta_Zacatecas_203:3.34E-4)[&label=99]:3.41E-4,(Marina_neglecta_Colima_118:0.00109,(Marina_neglecta_neglecta_Oaxaca_202:3.04E-4,(Marina_neglecta_elongata_Guerrero_209:0.003802,(Marina_neglecta_elongata_Puebla_168:4.83E-4,Marina_sp_Oaxaca_24:5.9E-5)[&label=99]:1.0E-6)[&label=100]:3.07E-4)[&label=100]:6.93E-4)[&label=100]:6.1E-4)[&label=90]:7.62E-4,Marina_neglecta_aguascalientes_223:0.002391)[&label=100]:0.002758,Marina_neglecta_neglecta_guanajuanto_207:0.007099)[&label=100]:0.029001,(((((((Marina_dispansa_142:0.002394,(Marina_diffusa_diffusa_Colima_177:0.001529,Marina_sp_Michoacan_23:0.001797)[&label=80]:6.08E-4)[&label=100]:7.92E-4,(Marina_diffusa_diffusa_PatagoniaMtns_27:0.001083,(Marina_diffusa_diffusa_SonoraMontezcuma_133:9.24E-4,Marina_diffusa_Yecora_187:5.69E-4)[&label=76]:2.78E-4)[&label=100]:0.002052)[&label=99]:5.31E-4,(Marina_diffusa_radiolata_Nayarit_169:0.002814,(Marina_gracillima_GDL_175:0.073811,(Marina_gracillima_nayarit_222:0.002467,Marina_gracillima_nayarit_234:0.001834)[&label=71]:5.07E-4)[&label=99]:0.001076)[&label=81]:3.75E-4)[&label=94]:5.81E-4,((Marina_nutans_Oaxaca_165:0.001881,(Marina_nutans_mexicostate_199:0.00357,Marina_nutans_Durango_196:0.002098)[&label=88]:6.13E-4)[&label=100]:0.001289,((Marina_nutans_Oaxaca_197:0.003868,(Marina_grammadenia_Michoacan_215:0.002033,(Marina_grammadenia_112:4.05E-4,Marina_grammadenia_talpadeallende_221:2.59E-4)[&label=100]:0.001447)[&label=100]:8.1E-4)[&label=100]:0.001859,(Marina_ghiesbreghtii_109:0.001074,(Marina_ghiesbreghtii_216:5.11E-4,Marina_nutans_michoacan_204:7.77E-4)[&label=75]:2.25E-4)[&label=100]:0.002941)[&label=54]:1.87E-4)[&label=84]:7.2E-4)[&label=100]:0.010742,((Marina_minutiflora_Oaxaca_115:0.001517,Marina_minutiflora_Morelos_119:0.001986)[&label=100]:0.014933,((Marina_sarodes_232:0.019941,((Marina_scopa_Alamos_191:0.001962,Marina_scopa_26:0.004978)[&label=100]:0.00307,((Marina_nutans_131:0.001486,(Marina_diffusa_diffusa_174:0.002146,(Marina_scopa_Oaxaca_195:5.7E-4,Marina_nutans_Guatemala_179:0.002872)[&label=100]:6.1E-4)[&label=92]:3.52E-4)[&label=100]:0.001706,Marina_scopa_chiapas_163:0.002863)[&label=100]:0.001204)[&label=100]:0.002077)[&label=100]:0.001458,(Marina_stilligera_Michoacan_213:0.004363,(Marina_stillingera_124:7.1E-5,Marina_stillingera_136:4.7E-5)[&label=100]:0.004423)[&label=100]:0.002913)[&label=100]:0.005632)[&label=100]:0.003176)[&label=100]:0.006312,((Marina_crenulata_oaxaca_211:1.69E-4,(Marina_crenulata_oaxaca_218:7.4E-5,Marina_crenulata_stipulacea_Oaxaca_190:1.04E-4)[&label=49]:4.7E-5)[&label=100]:0.001733,(Marina_crenulata_durango_219:0.002042,((Marina_crenulata_132:3.87E-4,Marina_orcuttii_campanea_SierraSanFrancisco_138:0.001405)[&label=100]:0.001197,(Marina_crenulata_Sinaloa_210:0.002061,Marina_crenulata_durango_220:0.001375)[&label=93]:2.78E-4)[&label=100]:4.23E-4)[&label=100]:7.03E-4)[&label=100]:0.017387)[&label=100]:0.010468,((Marina_procumbens_chiapas_233:0.009345,(Marina_procumbens_Aguascalientes_116:3.84E-4,Marina_procumbens_Oaxaca_120:2.26E-4)[&label=100]:0.001477)[&label=100]:0.023267,((Marina_gracilis_108:0.028316,((Marina_holwayi_Puebla_198:0.002013,(Marina_holwayi_Guerrero_Lavin_214:0.001937,Marina_holwayi_Guerrero_Ripley_164:0.001973)[&label=100]:0.001437)[&label=100]:0.00436,Marina_holwayi_Oaxaca_178:0.013955)[&label=100]:0.020601)[&label=100]:0.003028,(((Marina_melilotina_217:0.011392,Marina_sp_ser_unifoliolata_Oaxaca_140:0.020563)[&label=100]:0.001699,((Marina_pueblensis_Puebla_121:0.001347,Marina_neglecta_Puebla_117:0.001022)[&label=100]:0.00124,Marina_pueblensis_Guerrero_122:0.00207)[&label=100]:0.007284)[&label=100]:0.002636,(Marina_spiciformis_chiapas_231:0.013653,(Marina_greenmaniana_oaxaca_230:0.008399,(Marina_greenmaniana_141:0.008958,((Marina_unifolioata_Guerrero_172:0.002556,Marina_unifoliolata_Nayarit_212:0.002509)[&label=99]:8.43E-4,(Marina_unifolioata_Michoacan_145:0.002639,Marina_unifoliolata_MexicoState_171:0.001814)[&label=100]:0.001011)[&label=100]:0.008473)[&label=100]:0.002365)[&label=100]:0.001865)[&label=100]:0.001636)[&label=100]:0.007352)[&label=100]:0.002983)[&label=100]:0.005455)[&label=57]:9.33E-4)[&label=100]:0.001996,(((((Marina_evanescens_SierradeLaGiganta47:0.001072,Marina_brevis_33:5.07E-4)[&label=85]:2.75E-4,(Marina_evanescens_BahiadeLosAngeles_38:2.39E-4,(Marina_evanescens_Guaymas_157:0.010413,Marina_evanescens_MagBay_180:0.0361)[&label=100]:0.001887)[&label=56]:1.47E-4)[&label=100]:0.011882,((Marina_evanescens_SanBarteo_188:0.006122,((Marina_interstes_LosCabos_184:0.003273,Marina_interstes_39:0.001839)[&label=100]:7.44E-4,(Marina_evanescens_LaPaz_185:0.001714,Marina_aff_interstes_48:0.001938)[&label=99]:6.9E-4)[&label=100]:0.001822)[&label=100]:0.005157,((Marina_peninsularis_Sonora_206:0.008058,(Marina_chrysorrhiza_Migrino_193:0.003803,(Marina_chrysorrhiza_CaboPulmo_155:0.001272,(((Marina_chrysorrhiza_SierradelNovillo_156:9.11E-4,Marina_sp_SanJuanico_72:0.001309)[&label=100]:5.16E-4,Marina_victoriae_SierradeLaVictoria_74:0.001096)[&label=96]:4.65E-4,Marina_victoriae_SierraElTaste_56:0.002105)[&label=94]:3.03E-4)[&label=96]:6.76E-4)[&label=100]:0.006747)[&label=100]:0.003428,((Marina_goldmanii_chihuahua_205:0.001917,(Marina_alamosana_32:0.003871,Marina_goldmanii_28:0.002612)[&label=99]:9.38E-4)[&label=100]:0.005505,((((((Marina_capensis_SEW_10:0.003307,Marina_capensis_SanPedrito_51:0.003488)[&label=100]:0.001157,(Marina_palmeri_sonora_183:0.001952,Marina_palmeri_25:0.002496)[&label=100]:0.002675)[&label=97]:9.1E-4,(((((Marina_aff_capensis_LaPaz_144:0.00359,Marina_capensis_SierralaLaguna_146:0.003361)[&label=72]:7.28E-4,Marina_divaricata_sanBartolo_192:0.005144)[&label=32]:3.71E-4,Marina_divaricata_anthonyi_154:0.002558)[&label=65]:7.16E-4,(Marina_divaricata_SierradelNovillo_86:0.004767,Marina_divaricata_SierraLaLaguna_36:0.003134)[&label=76]:7.31E-4)[&label=79]:0.001539,(Marina_divaricata_elConejo_147:0.010775,(Marina_divaricata_MagIsland_152:0.002558,Marina_divaricata_typelocality_162:0.012443)[&label=79]:0.001114)[&label=100]:0.001575)[&label=54]:7.41E-4)[&label=82]:7.0E-4,(Marina_catalinae_34:0.003664,Marina_oculata_40:0.004015)[&label=100]:0.003204)[&label=62]:6.75E-4,(Marina_aff_Capensis_50:0.004803,((Marina_maritima_9palms_13:0.006587,(Marina_maritima_SanPedrito_59:0.002454,Marina_maritima_Cerritos_17:0.00251)[&label=100]:0.001272)[&label=100]:0.001292,(Marina_aff_divaricata_CaboPulmo_161:0.004751,(((Marina_maritima_SierraCacachila_58:0.003819,Marina_aff_maritima_SierralasCacachilas_57:0.003109)[&label=100]:0.001835,(Marina_aff_divaricata_SierradeLaLaguna_101:0.002886,(Marina_divaricata_cabo_151:0.002483,Marina_divaricata_CapeMtns_182:0.002166)[&label=62]:0.001368)[&label=100]:0.002231)[&label=92]:7.41E-4,(Marina_maritima_LasCuevas_159:0.003844,Marina_maritima_Santiago_160:0.003398)[&label=100]:0.001269)[&label=85]:4.49E-4)[&label=82]:7.92E-4)[&label=100]:7.92E-4)[&label=96]:0.001173)[&label=83]:8.82E-4,(((Marina_parryi_SierradeLaLibertad_88:0.003292,(((Marina_parryi_ChocolateMtns_139:0.001091,Marina_parryi_lakemojave_229:0.002771)[&label=100]:7.48E-4,(Marina_parryi_TucsonMtns_97:0.001861,Marina_parryi_makings_30:0.001342)[&label=83]:4.23E-4)[&label=100]:0.001995,Marina_parryi_SierradeSanBorja_89:0.004197)[&label=89]:6.76E-4)[&label=97]:8.61E-4,Marina_parryi_IslaCarmen_55:0.004546)[&label=80]:7.0E-4,(Marina_parryi_IslaSanJose_54:0.004148,Marina_parryi_Constitucion_53:0.003088)[&label=69]:9.63E-4)[&label=100]:0.002931)[&label=81]:0.001317)[&label=99]:0.001384)[&label=81]:0.001121)[&label=100]:0.001884)[&label=99]:9.76E-4,((Marina_peninsularis_LaPaz_87:0.003469,((Marina_peninsularis_GuerreroNegro_67:0.002068,Marina_peninsularis_Vizcaino_189:0.002922)[&label=100]:0.001306,Marina_peninsularis_BahiaMagdalena_43:0.003401)[&label=96]:5.43E-4)[&label=100]:9.21E-4,Marina_peninsularis_SLaGiganta_186:0.003738)[&label=100]:0.006703)[&label=80]:6.03E-4,((Marina_vetula_CerroMechudo_153:0.004105,(((Marina_vetula_SierradeLaLibertad_90:0.001667,Marina_vetula_Sierra_de_La_Libertad_65:0.004604)[&label=100]:0.002964,Marina_vetula_IslaTiburon_64:8.49E-4)[&label=100]:0.001279,(Marina_vetula_AguaVerde_15:0.001217,(Marina_vetula_guaymas_194:8.4E-5,Marina_vetula_guaymas_235:0.003859)[&label=100]:0.001041)[&label=100]:0.001044)[&label=100]:0.002474)[&label=100]:0.006042,(((Marina_calycosa_newMexico_200:0.001727,Marina_calycosa_Sonora_201:0.001838)[&label=100]:0.001182,(Marina_calycosa_PatagoniaMtns_98:0.002949,Marina_calycosa_29:0.001988)[&label=97]:7.61E-4)[&label=100]:0.006107,(Marina_orcuttii_campanea_sierraGuadalupe_149:0.006835,(Marina_orcuttii_campanea_sierraSanFran_148:0.00484,((Marina_orcutti_CerroMatomi_70:0.00324,(Marina_orcuttii_orcuttii_ElCastillo_181:0.004942,Marina_orcutti_orcutti_SanPedroMartir_42:0.00138)[&label=95]:8.09E-4)[&label=100]:0.002428,(Marina_orcutti_campanea_SierraLaLibertad_41:0.003443,Marina_orcuttii_campanea_SierralaLibertad_158:0.002182)[&label=99]:0.001083)[&label=100]:0.00212)[&label=98]:0.001023)[&label=100]:0.001495)[&label=100]:0.003921)[&label=100]:8.97E-4)[&label=100]:0.008019)[&label=100]:0.004493)[&label=100]:0.016932)[&label=100]:0.014248)[&label=100]:0.024253,Psorothamnus_arborescens_minutifolius_2:0.038011):0.029418,Amorpha_californica_napensis_81:0.029418);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=436;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
